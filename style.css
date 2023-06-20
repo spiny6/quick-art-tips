@@ -1,0 +1,48 @@
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: 200px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  } 
+  header {
+      display: flex;
+    }
+    
+    .half {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .friends {
+      max-width: 100%;
+      height: auto;
+    }
+    button{
+      height:90px;
+      width:150px;
+      background-color: rgb(138, 135, 149);
+      border-radius: 25px;
+    }
